@@ -174,9 +174,9 @@ export default function RegisterForm() {
             />
             <label htmlFor="terms" className="ml-2 text-sm text-gray-400">
               I agree to the{" "}
-              <a href="#terms" className="text-blue-500 hover:text-blue-400">
+              <button onClick={() => router.push("/terms")} className="text-blue-500 hover:text-blue-400">
                 Terms and Conditions
-              </a>
+              </button>
             </label>
           </div>
 
